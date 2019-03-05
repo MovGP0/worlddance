@@ -1,0 +1,675 @@
+@layout MainLayout
+@page "/slowfox"
+@*title "Slow Foxtrott"*@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Slowfox</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <BallroomNav />
+            <LatinNav />
+            <li class="nav-item dropdown">
+                <span class="nav-link dropdown-toggle" id="bronzeDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Bronze Figures
+                </span>
+                <div class="dropdown-menu" aria-labelledby="bronzeDropdownMenuLink">
+                    <a class="dropdown-item" href="#feather-step">feather step</a>
+                    <a class="dropdown-item" href="#tree-step">tree step</a>
+                    <a class="dropdown-item" href="#feather-finish">feather finish</a>
+                    <a class="dropdown-item" href="#feather-ending">feather ending</a>
+                    <a class="dropdown-item" href="#hover-feather">hover feather</a>
+                    <a class="dropdown-item" href="#natural-turn">natural turn</a>
+                    <a class="dropdown-item disabled" href="#reverse-turn">reverse turn</a>
+                    <a class="dropdown-item disabled" href="#basic-weave">basic weave</a>
+                    <a class="dropdown-item disabled" href="#natural-weave">natural weave</a>
+                    <a class="dropdown-item disabled" href="#change-of-direction">change of direction</a>
+                    <a class="dropdown-item disabled" href="#heel-pull-finish">heel pull finish</a>
+                    <a class="dropdown-item disabled" href="#whisk">whisk</a>
+                    <a class="dropdown-item disabled" href="#back-whisk">back whisk</a>
+                    <a class="dropdown-item disabled" href="#open-natural-turn">open natural turn</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <span class="nav-link dropdown-toggle" id="silverDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Silver Figures
+                </span>
+                <div class="dropdown-menu" aria-labelledby="silverDropdownMenuLink">
+                    <a class="dropdown-item disabled" href="#double-reverse-spin">double reverse spin</a>
+                    <a class="dropdown-item disabled" href="#telemark">telemark</a>
+                    <a class="dropdown-item disabled" href="#telemark-to-promenade-position">telemark to promenade position</a>
+                    <a class="dropdown-item disabled" href="#hover-telemark">hover telemark</a>
+                    <a class="dropdown-item disabled" href="#natural-telemark">natural telemark</a>
+                    <a class="dropdown-item disabled" href="#natural-hover">natural hover telemark</a>
+                    <a class="dropdown-item disabled" href="#impetus">impetus</a>
+                    <a class="dropdown-item disabled" href="#impetus-to-promenade-position">impetus to promenade position</a>
+                    <a class="dropdown-item disabled" href="#weave-from-promenade-position">weave from promenade position</a>
+                    <a class="dropdown-item disabled" href="#hover-cross">hover cross</a>
+                    <a class="dropdown-item disabled" href="#top-spin">top spin</a>
+                    <a class="dropdown-item disabled" href="#outside-swivel">outside swivel</a>
+                    <a class="dropdown-item disabled" href="#outside-spin">outside spin</a>
+                    <a class="dropdown-item disabled" href="#reverse-weave">reverse weave</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <span class="nav-link dropdown-toggle" id="goldDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Gold Figures
+                </span>
+                <div class="dropdown-menu" aria-labelledby="goldDropdownMenuLink">
+                    <a class="dropdown-item disabled" href="#natural-twist-turnnatural-twist-turn-with-natural-weave">natural twist turnnatural twist turn with natural weave</a>
+                    <a class="dropdown-item disabled" href="#natural-twist-turn-with-impetus-and-feather-finish">natural twist turn with impetus and feather finish</a>
+                    <a class="dropdown-item disabled" href="#natural-twist-turn-with-impetus-to-promenade-position">natural twist turn with impetus to promenade position</a>
+                    <a class="dropdown-item disabled" href="#natural-zig-zig-from-promenade-position">natural zig zig from promenade position</a>
+                    <a class="dropdown-item disabled" href="#curved-three-step">curved three step</a>
+                    <a class="dropdown-item disabled" href="#curved-feather">curved feather</a>
+                    <a class="dropdown-item disabled" href="#curved-feather-from-promenade-position">curved feather from promenade position</a>
+                    <a class="dropdown-item disabled" href="#back-feather">back feather</a>
+                    <a class="dropdown-item disabled" href="#fallaway-reverse-and-slip-pivot">fallaway reverse and slip pivot</a>
+                    <a class="dropdown-item disabled" href="#bounce-fallaway-with-weave-ending">bounce fallaway with weave ending</a>
+                    <a class="dropdown-item disabled" href="#running-weave-from-promenade-position">running weave from promenade position</a>
+                    <a class="dropdown-item disabled" href="#quick-open-reverse-turn">quick open reverse turn</a>
+                    <a class="dropdown-item disabled" href="#extended-reverse-weave">extended reverse weave</a>
+                    <a class="dropdown-item disabled" href="#reverse-pivot">reverse pivot</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section>
+    <h2 id="feather-step">Feather Step</h2>
+    <h3>Men</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>right foot forward<br />recover left foot</td>
+                <td>facing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>heel flat</td>
+                <td>slow</td>
+                <td>closed position</td>
+                <td>slightly to right with shoulders<br />to right with shoulders (dynamic and leading)</td>
+                <td>lower on step 1 (leg)<br />then start to rise at the end of step 1 (leg, foot)</td>
+                <td>straight</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>left foot forward and slightly to side<br />recover right foot</td>
+                <td>facing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>ball</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>slightly to right with shoulders (leading)</td>
+                <td>continue to rise on step 2</td>
+                <td>to right (cosmetic)</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>right foot forward in <abbr title="contra body movement position">CBMP</abbr><br />recover left </td>
+                <td>facing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>outer end of toe<br />ball, heel</td>
+                <td>quick</td>
+                <td>outside partner position</td>
+                <td>slightly to left with shoulders (leading) at the end of step 3</td>
+                <td>continue to rise on begin of step 3 (foot, leg, and body)<br />lower at end of step 3 (foot)</td>
+                <td>to right (cosmetic)</td>
+                <td>none</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Ladies</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>left foot backward<br />recover right foot</td>
+                <td>backing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>slow</td>
+                <td>closed position</td>
+                <td>slightly to right with shoulders<br />then dynamic to right with shoulders</td>
+                <td>lower on step 1 (leg)<br />then start to rise at end of step 1 (leg)</td>
+                <td>straight</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>right foot backward<br />recover left foot</td>
+                <td>backing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>slightly toi right with shoulders</td>
+                <td>continue to rise on step 2 (leg)<br />lower at end og step 2 (foot)</td>
+                <td>to left</td>
+                <td>gradually back, head moves to position 1</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>left foot in <abbr title="contra body movement position">CBMP</abbr><br />recover right foot</td>
+                <td>backing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>outside partner position</td>
+                <td>slightly to left with shoulders at the end of step 3</td>
+                <td>continue to rise on begin of step 3 (leg and body)<br />lower at end of step 3 (foot)</td>
+                <td>to left</td>
+                <td>continue gradually back, head ends in position 1</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h2 id="tree-step">Tree Step</h2>
+    <h3>Men</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">0</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>closed position</td>
+                <td>slightly to left with shoulders</td>
+                <td>lower at the end of step (foot)</td>
+                <td>straight</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>left foot forward<br />recover right foot</td>
+                <td>facing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>heel flat</td>
+                <td>slow</td>
+                <td>closed position</td>
+                <td>slightly to left with shoulders<br />then dynamic to left with shoulders</td>
+                <td>leg lower on step 1</td>
+                <td>slightly to left</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>right foot forward<br />recover left foot</td>
+                <td>facing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>heel, ball</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>none</td>
+                <td>start to rise at end of step 2 (leg and foot)</td>
+                <td>to left</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>left foot forward<br />recover right foot</td>
+                <td>facing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>ball, heel</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>none</td>
+                <td>up on step 3 (foot, leg, and body)<br />lower at end of step 3 (foot)</td>
+                <td>to left</td>
+                <td>none</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Ladies</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">0</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>closed position</td>
+                <td>slightly to left with shoulders</td>
+                <td>lower at end of step 0</td>
+                <td>none</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>right foot backward<br />recover left foot</td>
+                <td>backing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>slow</td>
+                <td>closed position</td>
+                <td>slightly to left with shoulders<br />then dynamic to left with shoulders</td>
+                <td>lower at step 1 (leg)</td>
+                <td>slightly to right</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>left foot backward<br />recover right foot</td>
+                <td>backing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>0</td>
+                <td>start to rise at end og step 2 (leg)<br />lower at end of step 2 (foot)</td>
+                <td>to right</td>
+                <td>gradually back, head moves to position 1</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>right foot backward<br />recover left foot</td>
+                <td>backing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td></td>
+                <td>up on step 3 (foot, leg, and body)<br />lower at end of step 3 (foot)</td>
+                <td>to right</td>
+                <td>continue gradually back, head ends in position 1</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h2 id="feather-finish">Feather Finish</h2>
+    <h3>Men</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>right feet backward and slightly to side<br />recover left foot</td>
+                <td>backing line of dance</td>
+                <td><a href="glossary.html#commence-to-turn">commence to turn left</a></td>
+                <td>toe heel toe</td>
+                <td>slow</td>
+                <td>closed position</td>
+                <td>slightly to left with shoulders<br />then to left with shoulders</td>
+                <td>lower on step 1 (leg) then start to rise at end of step 1 (leg, foot)</td>
+                <td>straight</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>left foot to side and slightly forward<br />recover right foot</td>
+                <td>pointing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/l3-8.svg" width="40" height="40"></object><br />body turns less</td>
+                <td>toe inner edge<br />ball</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>slightly to left with shoulders<br />then to left with hips</td>
+                <td>continue on step 2 (foot, leg)</td>
+                <td>to right</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>right foot forward in CBMP<br />recover left foot</td>
+                <td>facing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>outher end of toe<br />ball, heel</td>
+                <td>quick</td>
+                <td>outside partner position</td>
+                <td>slightly to left with shoulders at the end of step 3</td>
+                <td>continue to rise at begin of step 3 (foot, leg, and body)<br />lower at end of step 3 (foot)
+                </td>
+                <td>to right</td>
+                <td>none</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Ladies</h3>
+
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>left foot forward<br />recover right foot</td>
+                <td>facing line of dance</td>
+                <td><a href="glossary.html#commence-to-turn">commence to turn left</a></td>
+                <td>heel flat</td>
+                <td>slow</td>
+                <td>closed position</td>
+                <td>slightly to left with shoulders<br />then to left with hips</td>
+                <td>lower on step 1 (leg)<br />then start to rise at end of step 1 (foot)</td>
+                <td>to left</td>
+                <td>gradually back, head moves to position 1</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>right foot to side and slightly backward<br />recover left foot</td>
+                <td>backing wall</td>
+                <td><object type="image/svg+xml" data="turn/l1-4.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>slightly to left with shoulders<br />then to left with hips</td>
+                <td>continue to rise on step 2 (leg)<br />lower at end of step 2 (foot)</td>
+                <td>to left</td>
+                <td>gradually back, head moves to position 1</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>left foot backward in CBMP<br />recover right foot</td>
+                <td>backing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/l1-8.svg" width="40" height="40"></object><br />body turns less</td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>outside partner position</td>
+                <td>slightly to left with shoulders at the end of step 3</td>
+                <td>continue to rise before of step 3 (leg, body)<br />lower at end of step 3 (foot)</td>
+                <td>to left</td>
+                <td>continue gradually back, head ends at position 1</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h2 id="feather-ending">Feater Ending</h2>
+    <h3>Men</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>right foot forward in CBMP and across the body<br />recover left foot</td>
+                <td>pointing diagonally wall<br />moving line of dance</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>heel flat</td>
+                <td>slow</td>
+                <td>promenade position</td>
+                <td>to left with shoulders at the end of step 1</td>
+                <td>lofwer on step 1 (leg)<br />then start to rise at end of step 1 (foot, leg)</td>
+                <td>straight</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>left foot diagonally forward<br />recover right foot</td>
+                <td>facing diagonally forward</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>balls</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>slightly to left with hips<br />at the end of step 2</td>
+                <td>continue to rise on step 2 (foot, leg)</td>
+                <td>to right (cosmetic)</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>right foot forward in CMBP<br />recover left foot</td>
+                <td>facing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>on the end of toe<br />ball, heel</td>
+                <td>quick</td>
+                <td>outside partner position</td>
+                <td>slightly to left with shoulders (leading)<br />at the end of step 3</td>
+                <td>continue to rise before of step 3 (foot, leg, body)<br />lower at end of step 3 (foot)</td>
+                <td>to right (cosmetic)</td>
+                <td>none</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Ladies</h3>
+
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>left foot forward in CBMP and across the body<br />recover left foot</td>
+                <td>pointing diagonally center<br />moving line of dance</td>
+                <td><a href="glossary.html#commence-to-turn">commence to turn left</a></td>
+                <td>heel flat</td>
+                <td>slow</td>
+                <td>promenade position</td>
+                <td>to left with shoulders (leading)<br />at the end of step 1</td>
+                <td>lower on step 1 (leg)<br />then start to rise at end of step 1 (leg, foot)</td>
+                <td>straight</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>right foot to side and slightly backward<br />recover left foot</td>
+                <td>backing wall</td>
+                <td><object type="image/svg+xml" data="turn/l1-8.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>slightly to left with hips (leading)<br />at end of step 2</td>
+                <td>continue to rise on step 2 (leg)<br />lower at end of step 2 (foot)</td>
+                <td>to left (cosmetic)</td>
+                <td>gradually back, head moves to position 1</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>left foot backward in CMBP<br />recover right foot</td>
+                <td>backing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/l1-8.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>outside partner position</td>
+                <td>slightly to left with shoulders (leading)<br />at the end of step 3</td>
+                <td>continue to rise at begin of step 3 (leg, body)<br />lower at end of step 3 (foot)</td>
+                <td>to left (cosmetic)</td>
+                <td>continue gradually back, head ends at position 1</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2 id="hover-feather">Hover Feather</h2>
+    <h3>Men</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">0</th>
+                <td>(heel pull)</td>
+                <td>facing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>heel, inner edge of foot<br />flat on left foot and ball on right foot</td>
+                <td></td>
+                <td>closed position</td>
+                <td>slightly to right with shoulders<br />then dynamic/leading to right with shoulders</td>
+                <td>start to rise at end of step 0 (foot)</td>
+                <td>none</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>left foot diagonally forward; left side leaning<br />recover right foot</td>
+                <td>facing diagonally wall</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>ball</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>slightly to right with shoulders (leading)</td>
+                <td>continue to rise on step 1 (foot, leg)</td>
+                <td>technical to left</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>righ foot forward in CBMP<br />recover left foot</td>
+                <td>facing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>outer end of toe<br />ball, hell</td>
+                <td>quick</td>
+                <td>outside partner position</td>
+                <td>slightly to left with shoulders (leading) at the end of step 3</td>
+                <td>continue to rise at beginn of step 3 (foot, leg, body)<br />lower at end of step 3 (foot)</td>
+                <td>cosmetic to right</td>
+                <td>none</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Ladies</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">0</th>
+                <td>heel pull</td>
+                <td>backing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>heel flat on rigt foot and ball on left foot</td>
+                <td></td>
+                <td>closed position</td>
+                <td>slightly to right with shoulders<br />then dynamic and leading to right with shoulders</td>
+                <td>start to rise at end of step 0 (foot)</td>
+                <td>none</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>right foot diagonally backward, right side leading<br />recover left foot</td>
+                <td>backing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>slightly to right with shoulders (leading)</td>
+                <td>continue to rise on step 1 (foot, leg)<br />lower at end of step 1 (foot)</td>
+                <td>technical to right</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>left foot backward in CMBP<br />recover right foot</td>
+                <td>backing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>outside partner position</td>
+                <td>slightly to left wit shoulders (leading) at the end of step 3</td>
+                <td>continue to rise on begin of step 2 (leg, body)<br />lower at end of step 2 (foot)</td>
+                <td>technical to left</td>
+                <td>none</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2 id="natural-turn">Natural Turn</h2>
+    <h3>Men</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>right foot forward and slightly to side<br />recover left foot</td>
+                <td>facing diagonally wall</td>
+                <td><a href="glossary.html#commence-to-turn">commence to turn right</a></td>
+                <td>heel flat</td>
+                <td>slow</td>
+                <td>closed position</td>
+                <td>lightly to right with shoulders<br />then dynamically to right with shoulders</td>
+                <td>lower on step 1 (leg)<br />then start to rise end of step 1 (leg, foot)</td>
+                <td>straight</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>left foot to side<br />recover right foot</td>
+                <td>backing diagonally center</td>
+                <td><object type="image/svg+xml" data="turn/r1-4.svg" width="40" height="40"></object></td>
+                <td>ball</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>none</td>
+                <td>continue to rise on step 2 (foot, leg)</td>
+                <td>technically to right</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>right foot backward<br />recover left foot</td>
+                <td>backing line of dance</td>
+                <td><object type="image/svg+xml" data="turn/r1-8.svg" width="40" height="40"></object></td>
+                <td>toe heel</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>none</td>
+                <td>up on step 3 (foot, leg, body)<br />lower at end of step 3 (foot)</td>
+                <td>cosmetic to right</td>
+                <td>none</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Ladies</h3>
+    <table class="table table-striped table-bordered table-sm" style="width:2800px">
+        <BallroomThead />
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>
+                    left foot backward and slightly to side<br />recover body</td>
+                <td>backing diagonally wall</td>
+                <td><a href="glossary.html#commence-to-turn">commence to turn right</a></td>
+                <td>toe, heel</td>
+                <td>slow</td>
+                <td>closed position</td>
+                <td>lightly to right with shoulders<br />then dynamically right with shoulders</td>
+                <td>lower (leg)<br />then start to rise at end of step 1 (leg)</td>
+                <td>straight</td>
+                <td>gradually back<br />head moves to position 1
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>
+                    right foot closes to left foot (heel turn)<br />weight on right foot</td>
+                <td>facing line of dance</td>
+                <td><object type="image/svg+xml" data="turn/r3-8.svg" width="40" height="40"></object></td>
+                <td>hee, ball</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>none</td>
+                <td>continue to rise (leg, body, foot)</td>
+                <td>technically to left</td>
+                <td>continue gradually back<br />head ends in position 1
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>
+                    left foot forward<br />recover right foot</td>
+                <td>facing line of dance</td>
+                <td><object type="image/svg+xml" data="turn/0.svg" width="40" height="40"></object></td>
+                <td>toe, heel</td>
+                <td>quick</td>
+                <td>closed position</td>
+                <td>up on step 3 (foot, leg, body)<br />lower at end of step 3 (foot)</td>
+                <td>cosmetic to left</td>
+                <td>none
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
