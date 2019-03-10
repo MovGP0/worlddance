@@ -26,7 +26,13 @@
     <script>
         window.scrollToElementId = (elementId) => {
             console.info('scrolling to element', elementId);
-            document.getElementById(elementId).scrollIntoView();
+            var element = document.getElementById(elementId);
+            if(!element)
+            {
+                console.warn('element was not found', elementId);
+                return false;
+            }
+            element.scrollIntoView();
             return true;
         }
     </script>
