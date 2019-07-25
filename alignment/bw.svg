@@ -18,7 +18,7 @@
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
    id="metadata8"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs6" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -59,10 +59,6 @@
    y="0.00025673828"
    style="stroke-width:400;fill:#666666" /><path
    style="clip-rule:evenodd;fill:#800000;fill-rule:evenodd;stroke:none;stroke-width:400;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41420996;stroke-dasharray:none;stroke-opacity:1"
-   d="M 13606.3,7559.0553 4535.433,4535.4338 v 6047.2432 z"
-   id="path3721-7"
-   inkscape:connector-curvature="0" /><path
-   style="clip-rule:evenodd;fill:#ff0000;fill-rule:evenodd;stroke:none;stroke-width:400;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41420996;stroke-dasharray:none;stroke-opacity:1"
-   d="M 12094.489,7559.0554 3023.622,4535.434 v 6047.243 z"
+   d="m 3023.622,7559.0556 9070.867,3023.6214 V 4535.434 Z"
    id="path3721"
    inkscape:connector-curvature="0" /></svg>
